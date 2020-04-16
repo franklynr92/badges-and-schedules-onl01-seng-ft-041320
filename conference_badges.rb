@@ -1,7 +1,6 @@
 # Write your code here.
-def badge_maker(name)
-  puts "Hello, my name is Arel."
-end
+    badge_maker("Arel")
+    => "Hello, my name is Arel."
 
 # def batch_badge_creator
 
