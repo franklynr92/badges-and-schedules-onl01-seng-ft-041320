@@ -11,7 +11,10 @@ end
 return badges
 end
 
-def assign_rooms
+def assign_rooms(attendees)
+  assignments = []
+  attendees.each_with_index |attendees, room|
+  assignments << ""Hello, _____!" "You'll be assigned to room ____!"
   
-# array << "Hello, _____!" You'll be assigned to room ____!""
+
 end
