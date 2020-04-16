@@ -10,9 +10,9 @@ end
 return badges
 end
 
-def assign_rooms(attendees)
+def assign_rooms(attendee)
   assignments = []
-  attendees.each_with_index |attendee, room|
+  attendee.each_with_index |attendee, room|
   assignments << "Hello, #{attendee}! You'll be assigned to room #{room}!"
 end
 return assignments
