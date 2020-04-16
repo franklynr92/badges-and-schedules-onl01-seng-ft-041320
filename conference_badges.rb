@@ -13,4 +13,5 @@ end
 
 def assign_rooms
   
+# array << "Hello, _____!" You'll be assigned to room ____!""
 end
