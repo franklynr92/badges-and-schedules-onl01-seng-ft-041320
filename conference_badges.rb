@@ -1,6 +1,6 @@
 # Write your code here.
     names = ["Arel"]
-    def badge_maker(name)
+    def badge_maker()
      
      names.each {|name| puts "Hello, my name is #{name}."}
      
