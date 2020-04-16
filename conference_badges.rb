@@ -5,5 +5,5 @@ end
 
 def badge_maker_creator(name)
  names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
- names.each {|name|  "Hello, my name is #{name}."}
+ names.each {|name| return "Hello, my name is #{name}."}
 end
