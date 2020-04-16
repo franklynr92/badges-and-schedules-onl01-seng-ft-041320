@@ -1,8 +1,8 @@
 def badge_maker(name)
     name = ["Arel"]  
-print "Hello, my name is #{name}."
+puts "Hello, my name is #{name}."
 end
-
+p badge_maker
 # def batch_badge_creator
 
 # end
