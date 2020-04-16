@@ -8,3 +8,4 @@ def batch_badge_creator(attendees)
  attendees << "Hello, my name is #{badges}."
  return attendees 
 end
+end
