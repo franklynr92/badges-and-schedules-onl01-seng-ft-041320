@@ -27,5 +27,5 @@ end
   badges.each do |badges|
   puts "#{badges}"
 end
-
+end
 
