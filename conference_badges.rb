@@ -1,9 +1,9 @@
 def badge_maker(name)
-  name = ["Arel"]  
- "Hello, my name is Arel."
+  name = []  
+ "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(attendees)
- attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+ attendees = []
  attendees.each{|badges|  puts "Hello, my name is #{badges}."}
 end
